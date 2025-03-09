@@ -1,7 +1,6 @@
 <div align="center">
   <pre style="display: inline-block; border: 1px solid; padding: 10px;">
- ________  ___ _   _ 
-███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗    ██╗   ██╗██╗███████╗██╗████████╗ ██████╗ ██████╗ 
+████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗    ██╗   ██╗██╗███████╗██╗████████╗ ██████╗ ██████╗ 
 ██╔════╝██║  ██║██╔══██╗██╔══██╗██╔═══██╗██║    ██║    ██║   ██║██║██╔════╝██║╚══██╔══╝██╔═══██╗██╔══██╗
 ███████╗███████║███████║██║  ██║██║   ██║██║ █╗ ██║    ██║   ██║██║███████╗██║   ██║   ██║   ██║██████╔╝
 ╚════██║██╔══██║██╔══██║██║  ██║██║   ██║██║███╗██║    ╚██╗ ██╔╝██║╚════██║██║   ██║   ██║   ██║██╔══██╗
@@ -27,18 +26,16 @@ this section explains how to install and run the tool on kali linux
 
 ---
 
->first of all if you are on linux create an account [here](https://windscribe.net/login)
+><b>first of all if you are on linux create an account</b> [here](https://windscribe.net/login)
 
 <h5><p align="center">Ubuntu / Debian</p></h3>
 
 ```
 sudo apt update
 
-git clone github-link
+git clone https://github.com/Madhav-Bhardwaj/ShadowVisitor.git
 
-cd Shadowvisitor
-
-cd dependencies
+cd Shadowvisitor/dependencies
 
 sudo apt install resolvconf
 
